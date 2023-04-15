@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class AddContact extends Component {
+export default class AddContacts extends Component {
     SubmitContact(event){
         event.preventDefault();
 
