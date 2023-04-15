@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SingleContact from ./SingleContact;
-import AddContacts from ./AddContacts;
+import SingleContact from './SingleContact';
+import AddContacts from './AddContacts';
 
 export default class Contacts extends Component {
     constructor(props){
