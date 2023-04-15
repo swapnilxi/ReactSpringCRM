@@ -1,13 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Contact from /component/Contacts;
 import React, { Component } from 'react';
+import Contacts from './components/Contacts';
 
 
 function App() {
   return (
-    <div className="App">
-      <Contact/>
+    <div className="container-fluid">
+      <nav>
+        <div className='nav-wrapper center-align'>
+          <a href='/' className='brand-logo'>Contact Page</a>
+
+        </div>
+      </nav>
+      <div className='row'>
+        <Contacts/>
+      </div>
     </div>
   );
 }
